@@ -1,0 +1,39 @@
+# Project Report
+
+## Project Title
+
+Network Intrusion Detection System Using Snort
+
+## Introduction
+
+This project was done to understand how intrusion detection systems work in cybersecurity. Snort was installed on Ubuntu using VirtualBox to monitor network traffic and detect ping packets.
+
+## Objective
+
+The main goal of this project is to detect ICMP ping traffic using custom Snort rules and monitor network activity in real time.
+
+## Tools Used
+
+* Ubuntu Linux
+* Snort
+* VirtualBox
+
+## Project Explanation
+
+First, Ubuntu was installed inside VirtualBox. After setting up the environment, Snort IDS was installed and configured. A custom rule was added inside the local.rules file to detect ICMP packets.
+
+The following command was used to run Snort:
+
+```bash
+sudo snort -A console -q -c /etc/snort/snort.conf -i enp0s3
+```
+
+When ping packets were generated, Snort successfully displayed alert messages in the terminal.
+
+## Result
+
+The project successfully detected ping traffic and generated alerts using Snort. This helped in understanding basic network monitoring and intrusion detection concepts.
+
+## Conclusion
+
+This project improved my knowledge of Linux, networking, and cybersecurity tools. I learned how Snort works as a Network Intrusion Detection System (NIDS) and how custom rules can be used to monitor suspicious traffic.

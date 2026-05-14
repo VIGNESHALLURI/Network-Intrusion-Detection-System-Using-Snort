@@ -1,0 +1,11 @@
+1. Install VirtualBox
+2. Install Ubuntu in VirtualBox
+3. Open Terminal
+4. Install Snort
+5. Check Snort version using:
+   snort -V
+6. Edit local rules file
+7. Add ICMP detection rule
+8. Run Snort in console mode
+9. Test ping detection
+10. Verify alerts
